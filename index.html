@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson Live Guide</title>
+<meta name="description" content="How to run interactive Bible lessons alongside Zoom with Lesson Live: for teachers, students, and whoever sets it up.">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><button id="menu" aria-label="Contents">☰</button><b>Lesson Live Guide</b><input id="q" type="search" placeholder="Search this guide…" aria-label="Search"></header>
+<div class="layout">
+<nav id="toc" aria-label="Contents">
+<h4>Start here</h4><a href="#what">What is Lesson Live?</a><a href="#quick">Quick start (5 minutes)</a>
+<h4>Students</h4><a href="#students">Joining and following along</a><a href="#devices">Phones and tablets</a>
+<h4>Teachers</h4><a href="#signin">Signing in and classrooms</a><a href="#teaching">Teaching a lesson</a><a href="#coteach">Co-teaching and roles</a><a href="#testmode">Test mode (rehearsing)</a><a href="#tools">Attention and participation tools</a><a href="#ending">Ending a lesson</a>
+<h4>Features</h4><a href="#activities">Activities</a><a href="#scoreboard">Scoreboard</a><a href="#quest">Class quest</a><a href="#avatars">Avatars</a><a href="#analytics">Analytics</a>
+<h4>Making lessons</h4><a href="#maker">Lesson Maker</a><a href="#slidetypes">Slide types</a><a href="#ai">AI first draft</a>
+<h4>Admins</h4><a href="#setup">Setting it up</a><a href="#settings">Settings reference</a>
+<h4>Help</h4><a href="#faq">Troubleshooting and FAQ</a><a href="#privacy">Privacy and safety</a><a href="#ideas">What's next</a>
+</nav>
+<main>
+<p id="none">Nothing matches that search.</p>
+
+<section id="what"><h1>Lesson Live</h1>
+<p class="lead">An interactive slideshow that runs next to Zoom, so students stay engaged instead of drifting to other tabs.</p>
+<p>Students open a link, type their real name, and follow along with slides that the teacher controls. The slides include activities: drag things into order, fill in blanks, answer quizzes, find places on a map, and play a team game-show Scoreboard after each question. Teachers see a live dashboard of who is following along, and an analytics page tracks trends over weeks.</p>
+<p>The idea is that the Lesson Live window <b>takes the place of Zoom's shared screen</b>. Teachers do <b>not</b> need to share the slides on Zoom. Students keep Zoom open for audio and discussion, and switch to it only when the teacher wants them to look up or talk.</p>
+<figure><img class="shot" src="img/teacher-live.png" alt="The teacher dashboard during a live class"><figcaption>The teacher dashboard during a live class: the slide and your script on the left, every student's status on the right.</figcaption></figure>
+<div class="cards"><a href="#quick"><b>I'm a teacher →</b>Run a class in 5 minutes</a><a href="#students"><b>I'm a student →</b>How to join</a><a href="#setup"><b>I'm setting it up →</b>Hosting and settings</a><a href="#maker"><b>Make a lesson →</b>Build your own slides</a></div>
+</section>
+
+<section id="quick"><h2>Quick start for teachers</h2>
+<p>You need the app's web address and the team passcode. Ask whoever set up the app (see <a href="#setup">Setting it up</a>).</p>
+<ol class="steps">
+<li><b>Open the teacher page.</b> Go to your app's address followed by <code>/teacher</code>. If the app was asleep it can take up to a minute to wake, so open it a few minutes before class.</li>
+<li><b>Sign in</b> with your name and the passcode. Your name is shown to students and recorded as "taught by".</li>
+<li><b>Rehearse first (optional).</b> Choose a lesson and click <b>Start in test mode</b> to try it with a built-in student screen. Nothing is saved. See <a href="#testmode">Test mode</a>.</li>
+<li><b>Start the classroom.</b> Choose the lesson and click <b>Start classroom</b>. A four-letter <b>class code</b> appears in the header.</li>
+<li><b>Share the join link.</b> Click <b>Copy join link</b> and paste it into the Zoom chat. Students click it, type their name, and they appear on your roster.</li>
+<li><b>Teach.</b> Press <kbd>→</kbd> or <kbd>Space</kbd> to advance. Everyone follows. Your script for each slide is shown beside it.</li>
+<li><b>End the lesson.</b> Click <b>End lesson</b> to show students the rating form and save the session to analytics.</li>
+</ol>
+<div class="callout"><b>Tip for Zoom:</b> tell students once, "Keep Zoom open for audio, and keep this tab in front. I'll tell you when to look at Zoom." Use <b>Eyes on Zoom</b> (see <a href="#tools">tools</a>) when you want everyone to look up.</div>
+</section>
+
+<section id="students"><h2>For students: joining and following along</h2>
+<figure><img class="shot" src="img/student-join.png" alt="The student join screen"></figure>
+<ol class="steps">
+<li><b>Click the link</b> your teacher pasted in the Zoom chat. The class code fills in by itself. (If you type it, it is four letters.)</li>
+<li><b>Type your real first and last name</b> so your teacher knows it's you, then click <b>Join</b>.</li>
+<li><b>Follow along.</b> The slides move when your teacher moves them. You can look back with the ← button; <b>Jump to teacher's slide</b> brings you back.</li>
+<li><b>Take part.</b> When a slide has an activity (drag, tap, type, choose) do it. Your teacher can see who has finished.</li>
+<li><b>Use the buttons at the bottom:</b> <b>Raise hand</b>, ❓ <i>I'm confused</i> and 👍 <i>I get it</i> let you speak up without interrupting.</li></ol>
+<figure><img class="shot" src="img/student-order.png" alt="A student doing a drag-to-order activity"><figcaption>An activity: put the verse in order by dragging.</figcaption></figure>
+<h3>Talking in Zoom</h3>
+<p>Lesson Live can't switch your microphone on, only you can. The <b>Unmute</b> button shows how: click your Zoom window, then press <kbd>Alt</kbd> + <kbd>A</kbd> (Windows) or <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>A</kbd> (Mac), or hold <kbd>Space</kbd> to talk. On a phone, switch to the Zoom app and tap the mic.</p>
+<h3>Things that count as "not paying attention"</h3>
+<p>The teacher can see if your tab is hidden, if you are in another window, or if you haven't touched anything for a while. This is just so they can check in on you kindly. Time when the teacher pauses the slides ("Eyes on Zoom") never counts against you.</p>
+<h3>Make it yours</h3>
+<p>Tap the little face at the top right to design an <a href="#avatars">avatar</a>. Your teammates see it on the class quest and Scoreboard.</p>
+</section>
+
+<section id="devices"><h2>Phones and tablets</h2>
+<p>Students can use any device: laptop, tablet or phone. Lesson Live adapts:</p>
+<figure><img class="shot phone" src="img/phone-slide.png" alt="The Scoreboard on a phone"><figcaption>The Scoreboard on a phone in portrait.</figcaption></figure>
+<ul><li><b>Portrait phones</b> use a taller slide area, with bigger buttons and text. Slides that show a map (where the whole map matters) stay wide, and a hint asks the student to <b>turn the phone sideways</b>.</li>
+<li><b>Landscape phones</b> compact the header and buttons so the slide gets the room.</li>
+<li><b>Dragging</b> works with a finger. Long lists scroll as normal.</li>
+<li>On a phone, students still need Zoom for audio. Switching between the two apps is normal; the teacher's "Eyes on Zoom" button tells them when.</li></ul>
+<p>Teachers should use a laptop or desktop: the dashboard has a lot on it.</p></section>
+
+<section id="signin"><h2>Signing in and classrooms</h2>
+<figure><img class="shot" src="img/teacher-signin.png" alt="Teacher sign in"></figure>
+<p>Every teacher signs in with their <b>own name</b> and the shared <b>passcode</b>. After signing in you land on <b>Classrooms</b>.</p>
+<figure><img class="shot" src="img/teacher-lobby.png" alt="The classrooms page"></figure>
+<ul><li><b>Open classrooms</b> are listed with their code, lesson and teachers. Click <b>Join</b> on your co-teacher's classroom to help teach it.</li>
+<li><b>Start classroom</b> creates a new real class: its own code, its own students, saved to analytics.</li>
+<li><b>Start in test mode</b> makes a rehearsal classroom that is never saved. You must choose this here, <i>before</i> the classroom starts.</li>
+<li>Two pairs of teachers can teach at the same time: each classroom is separate.</li>
+<li><b>🏫 Classrooms</b> (top left, once inside) goes back to the list. The class keeps running while you're away.</li></ul></section>
+
+<section id="teaching"><h2>Teaching a lesson</h2>
+<p>The dashboard has the current slide on the left (with your <b>teacher's guide</b> and the next slide underneath) and your students on the right.</p>
+<table><tr><th>Do this</th><th>To…</th></tr>
+<tr><td><kbd>→</kbd> / <kbd>Space</kbd> / <b>Next</b></td><td>Go to the next slide. All students follow.</td></tr>
+<tr><td><kbd>←</kbd></td><td>Go back one slide.</td></tr>
+<tr><td>Filmstrip at the bottom</td><td>Jump to any slide.</td></tr>
+<tr><td><b>Choose a lesson</b> (📚 menu)</td><td>Switch lesson. The current session is saved; students stay connected.</td></tr>
+<tr><td><b>Lock students to my slide</b></td><td>Stop students from browsing back and forth. Leave it on during discussion.</td></tr>
+<tr><td>Live activity panel</td><td>Under the slide: who has answered, who is right, and <b>Reset answers</b>.</td></tr></table>
+<h3>The roster</h3>
+<p>Each student is a row with a colored status (<b>Active</b>, <b>Other window</b>, <b>Idle</b>, <b>Tab hidden</b>, <b>Offline</b>), an on-task percentage, and how many activities they've done. Sort by "Needs attention first" to see who to check in on. <b>Nudge</b> sends a friendly pop-up to one student.</p>
+</section>
+
+<section id="coteach"><h2>Co-teaching and roles</h2>
+<p>Pairs of teachers teach together, and about five teachers rotate. Here is how it works.</p>
+<ul><li>The teacher who <b>starts</b> the classroom is the 🎮 <b>driver</b>. Only the driver moves slides, changes the lesson, ends the lesson or resets answers.</li>
+<li>Everyone else who joins is a 👩‍🏫 <b>helper</b>. Helpers see everything live (the roster, who has answered, the script) and can nudge students, pick students, and run attention checks.</li>
+<li>The driver clicks <b>Hand control to …</b> to pass the controls. A helper can click <b>Take control</b> if the driver's internet drops.</li>
+<li>The header shows who is online. Sessions are saved as "Taught by" everyone who joined, and analytics can filter by teacher.</li></ul>
+<div class="callout"><b>Good split:</b> the driver teaches and advances slides; the helper watches the roster and the chat, nudges students who drift and pulls up a struggling student's answers.</div></section>
+
+<section id="testmode"><h2>Test mode: rehearse without saving anything</h2>
+<p>Test mode is for practicing a lesson before teaching it. You get a real student screen right beside the dashboard, so you can do the activities exactly as a student sees them.</p>
+<ul><li>Choose <b>Start in test mode</b> on the Classrooms page. It cannot be turned on after a classroom starts, so real classes can never be mistaken for rehearsals.</li>
+<li>A <b>Test mode · nothing is saved</b> badge stays visible the whole time.</li>
+<li>Nothing is written to analytics, ever.</li>
+<li>You can open the join link on your phone to check the phone layout too.</li></ul>
+<p>The <a href="#maker">Lesson Maker</a> has a <b>Test it</b> button that opens a lesson straight in test mode.</p></section>
+
+<section id="tools"><h2>Attention and participation tools</h2>
+<table><tr><th>Tool</th><th>What it does</th></tr>
+<tr><td><b>Eyes on Zoom</b></td><td>Covers every student's slides with "Look at Zoom and listen in". Paused time never counts against anyone. Click again to resume.</td></tr>
+<tr><td><b>Pick a student</b></td><td>Chooses someone at random, favoring students who have been quiet. The picked student sees "You're up!".</td></tr>
+<tr><td><b>Attention check</b></td><td>An "I'm here!" button pops up on every screen for 30 seconds. The roster shows who tapped.</td></tr>
+<tr><td><b>Nudge</b></td><td>A kind pop-up to one student whose status is idle or away.</td></tr>
+<tr><td><b>Hands, ❓ and 👍</b></td><td>Students signal without speaking. You see counts over the last minute and who raised a hand. <b>Lower all hands</b> clears them.</td></tr>
+<tr><td><b>Teams (East / West)</b></td><td>Students are split into two teams automatically. Points from quiz answers add up on the Scoreboard.</td></tr>
+<tr><td><b>Reading list</b></td><td>For "read aloud" slides: every student's name in a list, and you cross off each student who has read, so you can see who still needs a turn. Students see whose turn is next.</td></tr></table></section>
+
+<section id="ending"><h2>Ending a lesson</h2>
+<ol class="steps"><li>Click <b>End lesson</b>. Students see a 1–5 star rating and an optional comment box.</li>
+<li>The session is saved to analytics with attendance, attention, activities, accuracy, ratings and who taught.</li>
+<li><b>Export report</b> downloads a summary of the session. <b>New class code</b> saves and starts a fresh roster for the next class.</li></ol>
+<p>Ratings and comments appear in the dashboard and in <a href="#analytics">Analytics</a>.</p></section>
+
+<section id="activities"><h2>Activities</h2>
+<p>Activities appear on the slide itself. Answers are checked on the server, so students can't see correct answers by looking at their browser.</p>
+<table><tr><th>Activity</th><th>What students do</th></tr>
+<tr><td>Drag in order</td><td>Put a verse, a story or a list into the correct order by dragging.</td></tr>
+<tr><td>Fill in the blanks</td><td>Type or tap words from a word bank to complete a verse.</td></tr>
+<tr><td>Quiz</td><td>Multiple choice, pick a number, or type a short answer. The next slide reveals the answer, then the Scoreboard.</td></tr>
+<tr><td>Clue hunt</td><td>Tap the phrase in a passage that answers a question.</td></tr>
+<tr><td>Map tap, drag-to and compass</td><td>Find places on a map, drag labels or pins to the right spot, or read directions.</td></tr>
+<tr><td>Timeline and matching</td><td>Order events along a timeline or match items in pairs.</td></tr>
+<tr><td>Worksheet and drawing</td><td>Answer questions or draw a response, shown to the teacher.</td></tr>
+<tr><td>Reading list</td><td>See <a href="#tools">tools</a>: tracks who has read aloud.</td></tr>
+<tr><td>Acting out</td><td>The teacher assigns roles in a scene to students.</td></tr>
+<tr><td>Wrap-up</td><td>A shared word cloud ("one word for today") and a private exit ticket.</td></tr></table>
+<p>The built-in lesson, <i>John Lesson 20</i>, uses all of these. Lessons you build in the <a href="#maker">Lesson Maker</a> can use the most common ones (see <a href="#slidetypes">Slide types</a>).</p></section>
+
+<section id="scoreboard"><h2>Scoreboard</h2>
+<p>After every quiz answer, the next slide is a <b>game-show Scoreboard</b>. It means students never have to look away to see how they did.</p>
+<figure><img class="shot" src="img/student-scoreboard.png" alt="The Scoreboard slide"></figure>
+<ul><li>Their own result for the question and a progress track through the quiz.</li><li>East vs West team scores, with the per-player average so teams of different sizes are fair.</li><li>Streaks ("On a roll") and shout-outs for the top players, with their avatars.</li></ul>
+<p>Scoreboards are added automatically, in the built-in lesson and in lessons you make.</p></section>
+
+<section id="quest"><h2>Class quest</h2>
+<p>A quest makes the whole class a team. As students take part in activities, their party travels along a route (for example, the road to Bethany). Each stop unlocks a <b>story card</b> to read.</p>
+<figure><img class="shot" src="img/student-quest.png" alt="The class quest map"><figcaption>The quest map: the party avatars move along the route; each stop unlocks a story card.</figcaption></figure>
+<ul><li>Progress is the share of the class taking part, so it moves faster when more students do activities. It never goes backwards.</li><li>Students open the map from the <b>Stop 1/4</b> chip in the header. When the party arrives somewhere, a banner announces it to students and teachers.</li><li>You can add a quest to your own lessons: <a href="#maker">Lesson settings &amp; quest</a>.</li></ul></section>
+
+<section id="avatars"><h2>Avatars</h2>
+<p>Each student can design a little character: background, skin, robe, head and face, and a prop. It appears on the teacher's roster, the Scoreboard shout-outs, the reading list and the quest party. It is saved on the student's own device and only affects looks.</p>
+<figure><img class="shot" src="img/student-avatar.png" alt="Designing an avatar"></figure></section>
+
+<section id="analytics"><h2>Analytics</h2>
+<p>Open your app's address followed by <code>/analytics</code>, or click <b>Analytics</b> on the dashboard. Sign in the same way.</p>
+<figure><img class="shot" src="img/analytics.png" alt="The analytics page"><figcaption>Sample data: attention, activities, accuracy and ratings over eight weeks.</figcaption></figure>
+<ul><li><b>Filter</b> by time period, lesson, teacher or student.</li>
+<li><b>Summary tiles</b>: sessions, students, on-task %, activities done, accuracy and rating.</li>
+<li><b>Charts</b>: class attention over time and lesson ratings.</li>
+<li><b>Students table</b>: each student's attendance, on-task %, accuracy and trend. A badge flags a student who is <i>Dropping</i> or has <i>Low focus</i>, so you can follow up kindly.</li>
+<li><b>Export CSV</b> for spreadsheets. Click a student's name for their history.</li></ul>
+<div class="callout warn"><b>Analytics need a database.</b> Without one, history disappears when the app restarts. See <a href="#setup">Setting it up</a>. Test-mode classes are never recorded.</div></section>
+
+<section id="maker"><h2>Lesson Maker</h2>
+<p>Build your own lessons in the browser: no code. Open your app's address followed by <code>/lessons</code>, or click <b>Lesson Maker</b> on the teacher dashboard. Sign in the same way.</p>
+<figure><img class="shot" src="img/maker-editor.png" alt="The lesson editor"><figcaption>Left: your slides. Middle: the form for the selected slide. Right: exactly what students see, and it's interactive.</figcaption></figure>
+<ol class="steps">
+<li><b>New lesson</b>, then type a title at the top.</li>
+<li><b>Add slides</b> with <b>+ Add slide</b> and choose a type. Fill in the form: the preview updates as you type.</li>
+<li><b>Write a teacher script</b> in the box at the bottom of each form. Only teachers see it, next to the slide.</li>
+<li><b>Reorder, duplicate or delete</b> slides with the little buttons that appear when you hover a slide (always visible on touch screens).</li>
+<li><b>Pages from a PDF</b> turns pages of your slide PDF (maps, worksheets, charts) into picture slides. The PDF stays on your computer; only the pages you choose are uploaded as images.</li>
+<li><b>Save</b> (it also saves automatically after the first save), then <b>Test it</b> to rehearse in test mode.</li>
+<li>Your lesson now appears in the lesson menu on the dashboard for every teacher.</li></ol>
+<figure><img class="shot" src="img/maker-add.png" alt="Choosing a slide type"></figure>
+<h3>Things to know</h3>
+<ul><li>An unfinished slide shows an orange dot and is skipped for students until it is complete. The panel under the preview lists what is missing.</li>
+<li>A <b>quiz</b> becomes three slides for students: the question, the answer reveal, then the Scoreboard.</li>
+<li>You can't edit or delete a lesson while a real class with students is using it. Practice rooms are fine.</li>
+<li>Editing a lesson updates it for new students right away. Use <b>Duplicate</b> on the lesson list to make a copy first.</li>
+<li>The built-in lessons can't be edited, but you can duplicate ideas from them.</li></ul>
+<h3>Lesson settings and quest</h3>
+<p>Click <b>Lesson settings &amp; quest</b> at the top of the slide list to set the series and lesson number, and to add a <a href="#quest">class quest</a> with a name and 2 to 8 stops. Each stop has a name and a story card you read when the class arrives.</p>
+<figure><img class="shot" src="img/maker-quest.png" alt="Lesson settings and quest"></figure></section>
+
+<section id="slidetypes"><h2>Slide types</h2>
+<table><tr><th>Type</th><th>Use it for</th><th>You provide</th></tr>
+<tr><td>Title</td><td>Opening or part title</td><td>Small line above, title, subtitle</td></tr>
+<tr><td>Big text</td><td>A heading or a single thought</td><td>One line (and an optional small line above)</td></tr>
+<tr><td>Verse</td><td>Theme verse or quote</td><td>Lines of text, reference</td></tr>
+<tr><td>Bullet points</td><td>Instructions, summaries</td><td>Title, bullets, optional footer</td></tr>
+<tr><td>Image or map</td><td>Pictures, maps, worksheets</td><td>Upload an image or pick a PDF page</td></tr>
+<tr><td>Quiz question</td><td>Check understanding</td><td>Question, then multiple choice (mark the correct one), a number (min, max, answer), or a short typed answer (accepted answers)</td></tr>
+<tr><td>Put in order</td><td>Story sequence or verse</td><td>3–10 items listed in the <i>correct</i> order; students see them shuffled</td></tr>
+<tr><td>Fill in the blanks</td><td>Memory verses</td><td>Text with <code>[[word]]</code> blanks; use <code>[[word|other]]</code> for alternatives; optional wrong words for the bank</td></tr>
+<tr><td>Clue hunt</td><td>Find the answer in a passage</td><td>The text split into phrases (one per line), and which phrase is correct</td></tr>
+<tr><td>Wrap-up</td><td>End of lesson</td><td>A word-cloud question and an exit-ticket question. Use once.</td></tr>
+<tr><td>Reading list</td><td>Reading aloud</td><td>A title. Use once.</td></tr></table>
+<p>Not available yet in the Lesson Maker: map-tapping, compass, drawing, timeline, matching and acting. These exist in the built-in lesson. Let your admin know if you need them.</p></section>
+
+<section id="ai"><h2>AI first draft</h2>
+<p>On the Lesson Maker's home page, <b>✨ Draft from a PDF or guide</b> turns your slide PDF and teacher's guide into a first draft: slides, quiz questions, a memory activity, your teacher script, and picture slides for map and worksheet pages.</p>
+<ol class="steps"><li>Click <b>Draft from a PDF or guide</b> and add your PDF slides, a Word teacher's guide (.docx), or paste text. Add any special notes (class length, age group).</li>
+<li>Click <b>Create draft</b> and wait one to three minutes.</li>
+<li>The draft opens in the editor <b>unsaved</b>. Read every slide, fix anything wrong, and check every quiz answer against your guide before you save.</li></ol>
+<div class="callout warn"><b>Always review.</b> AI can make mistakes, including wrong quiz answers or invented details. The draft is a starting point, never a finished lesson.</div>
+<div class="callout"><b>It must be turned on.</b> An admin adds an <code>ANTHROPIC_API_KEY</code> setting to the server (<a href="#settings">Settings reference</a>). Until then the button explains that it isn't set up, and you can still build by hand. Each draft uses a small amount of paid API credit. Files are sent to Anthropic's API to write the draft.</div></section>
+
+<section id="setup"><h2>Setting it up (for admins)</h2>
+<p>One person sets this up once; everyone else just uses the web addresses. You need three free accounts: GitHub (to hold the code), Render (to run the app) and Neon (a database for analytics).</p>
+<ol class="steps">
+<li><b>Put the code on GitHub.</b> Keep the repository <b>private</b>: it contains your lessons' answer keys.</li>
+<li><b>Create the app on Render.</b> Sign in with GitHub, choose <b>New → Blueprint</b>, select the repository, and when asked for <code>TEACHER_PASSCODE</code> enter the passcode your teachers will share. Click <b>Apply</b>. After a few minutes you get an address like <code>https://your-app.onrender.com</code>.</li>
+<li><b>Connect a database.</b> On neon.tech create a free project, click <b>Connect</b> and copy the connection string (it starts with <code>postgresql://</code>). In Render, open the service, go to <b>Environment</b>, add <code>DATABASE_URL</code>, paste the string and save. The app restarts and creates its own tables.</li>
+<li><b>(Optional) Turn on AI drafts.</b> Create an API key in the Anthropic Console, and in Render add it as <code>ANTHROPIC_API_KEY</code>. Keep the key private: never post it in chat or commit it to the repository.</li>
+<li><b>Share the addresses.</b> Teachers use <code>/teacher</code>, <code>/lessons</code> and <code>/analytics</code>; students use the join link from the dashboard.</li></ol>
+<div class="callout warn"><b>Notes on free plans.</b> The app sleeps after about 15 minutes without visitors and takes up to a minute to wake: open it before class. Don't deploy changes during class. Use Neon rather than Render's own free database, which expires after 30 days.</div>
+<p>You can also try it on your own computer: install Node.js, run <code>npm install</code> then <code>npm start</code>, and open <code>http://localhost:3000</code>. Always set your own passcode before real use.</p></section>
+
+<section id="settings"><h2>Settings reference</h2>
+<p>Set these as environment variables (in Render: <b>Environment</b>).</p>
+<table><tr><th>Name</th><th>What it does</th></tr>
+<tr><td><code>TEACHER_PASSCODE</code></td><td>The shared passcode for the teacher page, analytics and Lesson Maker. Choose your own, and change it when a teacher leaves.</td></tr>
+<tr><td><code>DATABASE_URL</code></td><td>Postgres connection string. Keeps analytics, custom lessons and uploaded pictures through restarts. Without it they are kept only on the server's disk and lost on free hosting.</td></tr>
+<tr><td><code>ANTHROPIC_API_KEY</code></td><td>Turns on the AI first draft in the Lesson Maker.</td></tr>
+<tr><td><code>DRAFT_MODEL</code></td><td>Optional. Chooses which Claude model writes drafts.</td></tr>
+<tr><td><code>IDLE_SECONDS</code></td><td>How long without input before a student counts as "Idle". Default 90.</td></tr>
+<tr><td><code>PORT</code></td><td>Port to listen on. Render sets this itself.</td></tr></table></section>
+
+<section id="faq"><h2>Troubleshooting and FAQ</h2>
+<details><summary>Students see "class not found" or can't join</summary><p>Check the four-letter code. A code stops working after you press <b>New class code</b> or end the classroom. Re-copy the join link from the dashboard.</p></details>
+<details><summary>The page is slow to open or blank</summary><p>On free hosting the app sleeps when nobody uses it. Open the teacher page a few minutes before class and wait up to a minute.</p></details>
+<details><summary>A student's slide doesn't follow mine</summary><p>They may have browsed ahead or back. They tap <b>Jump to teacher's slide</b>, or turn on <b>Lock students to my slide</b>.</p></details>
+<details><summary>A student shows "Tab hidden" but is paying attention</summary><p>That means they are in another tab or app, often Zoom itself. Use <b>Eyes on Zoom</b> when you want them in Zoom, because paused time never counts against anyone.</p></details>
+<details><summary>I clicked something and the slide on my screen is wrong after my co-teacher took control</summary><p>Only the driver moves slides. Use <b>Take control</b> or ask for the hand-off. The role banner under the controls shows who is driving.</p></details>
+<details><summary>The analytics are empty after the app restarted</summary><p>No database is connected. See <a href="#setup">Setting it up</a>. History from before the connection can't be recovered.</p></details>
+<details><summary>The Lesson Maker says "Wrong passcode"</summary><p>It uses the same passcode as the teacher page. Check with the admin; the passcode is case-sensitive.</p></details>
+<details><summary>A custom lesson can't be changed or deleted</summary><p>A real class with students is using it right now. Finish that class first, or duplicate the lesson and edit the copy.</p></details>
+<details><summary>A PDF page looks blurry</summary><p>Pages are saved as pictures up to 1600 pixels wide. For a sharper picture, upload a high-resolution image instead.</p></details>
+<details><summary>The AI draft button says it isn't set up</summary><p>The admin needs to add <code>ANTHROPIC_API_KEY</code>. See <a href="#settings">Settings reference</a>.</p></details>
+<details><summary>Do I need to share my screen on Zoom?</summary><p>No. Students use the Lesson Live window instead. If you want to show something else, tell them to switch to Zoom, then use <b>Eyes on Zoom</b> to bring everyone back to the same place.</p></details></section>
+
+<section id="privacy"><h2>Privacy and safety</h2>
+<ul><li><b>What is collected:</b> the name students type, their activity answers, attention status (tab visible, recent input), ratings and comments, and an avatar's look. Nothing is collected from the camera or microphone.</li>
+<li><b>Who sees it:</b> teachers with the passcode. Students see only their own results and the team scores.</li>
+<li><b>Names:</b> students use real names so teachers can recognize them. For younger classes get parent consent as your organization requires.</li>
+<li><b>Answers stay on the server.</b> Answer keys are never sent to student browsers.</li>
+<li><b>Passcode:</b> the passcode protects the teacher tools. Choose a long one, share it only with your team, and change it when someone leaves.</li>
+<li><b>AI drafts:</b> when you use them, the files and text you add are sent to Anthropic to write the draft. Don't add anything private about students.</li>
+<li><b>Deleting data:</b> ask your admin to clear the database tables or the project in Neon.</li></ul></section>
+
+<section id="ideas"><h2>What's next</h2>
+<p>Ideas being considered: more activity types in the Lesson Maker, a walkable 2D map for acting out stories, and lighter sharing of finished lessons between teams. A full 3D open-world game is a much bigger project; the class quest, avatars and map slides are the first steps toward it.</p>
+<p>Have feedback on this guide? Tell the person who set up the app.</p></section>
+</main></div>
+<script src="app.js"></script></body></html>
